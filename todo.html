@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ToDoリスト</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+  <!--div id="contents" style="width: 700px; margin: 0 auto;"-->
+<body>
+  <div id="wrap">
+    <div id="main">
+      <p id="title">ToDo List</p>
+      <hr size="3" width="50" color="#c71585">
+      <div id="list">
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <p id="form-title">Form</p>
+      <hr id="border" size="3" width="50" color="#c71585">
+      <div id="form">
+        <p>
+          <input id="formTextButton" type="text" size="40" maxlength="30">
+          <label id="innerText" for="formText">input todo</label>
+          <input id="formButton" type="button" value="ADD">
+        </p>
+      </div>
+      <p id="remove-title">Remove</p>
+      <hr id="border" size="3" width="50" color="#c71585">
+      <div id="sub">
+        <input id="removeAllButton" type="button" value="ALL">
+        <input id="removeSelectedButton" type="button" value="SELECTED">
+      </div>
+    </div>
+  </div>
+  
+  <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+  <script src="strage.js"></script>
+</body>
+</html>
